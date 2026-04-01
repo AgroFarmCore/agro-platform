@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(163, 230, 53, 0.25),
+      transparent 35%
+    ),
+    linear-gradient(180deg, #f6fbf4 0%, #eef6eb 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  color: #102418;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 48px 24px 72px;
+}

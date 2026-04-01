@@ -1,0 +1,17 @@
+{
+  "name": "@agro/observability",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Logging, tracing and metrics foundation",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "lint": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "node ../../tooling/scripts/noop.mjs test @agro/observability"
+  }
+}

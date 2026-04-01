@@ -2,13 +2,17 @@
   "name": "agro-platform",
   "private": true,
   "version": "0.1.0",
-  "description": "Monorepo blueprint for the agro platform",
+  "description": "Foundation monorepo for the agro platform",
   "packageManager": "pnpm@10.33.0",
   "engines": {
     "node": ">=22.0.0"
   },
   "scripts": {
     "dev": "turbo dev --parallel",
+    "dev:web": "pnpm --filter @agro/web dev",
+    "dev:portal": "pnpm --filter @agro/portal dev",
+    "dev:backoffice": "pnpm --filter @agro/backoffice dev",
+    "dev:worker": "pnpm --filter @agro/worker dev",
     "build": "turbo build",
     "lint": "turbo lint",
     "typecheck": "turbo typecheck",
@@ -23,10 +27,18 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "husky": "^9.0.0",
     "lint-staged": "^15.0.0",
     "prettier": "^3.0.0",
     "turbo": "^2.0.0",
     "typescript": "^5.0.0"
+  },
+  "lint-staged": {
+    "*.{js,cjs,mjs,ts,tsx,jsx,json,md,yml,yaml}": [
+      "prettier --write"
+    ]
   }
 }

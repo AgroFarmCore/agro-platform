@@ -1,0 +1,12 @@
+{
+  "name": "@agro/tests-smoke",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Smoke test workspace",
+  "scripts": {
+    "build": "node ../../tooling/scripts/noop.mjs build @agro/tests-smoke",
+    "lint": "node ../../tooling/scripts/noop.mjs lint @agro/tests-smoke",
+    "typecheck": "node ../../tooling/scripts/noop.mjs typecheck @agro/tests-smoke",
+    "test": "node ../../tooling/scripts/noop.mjs test @agro/tests-smoke"
+  }
+}

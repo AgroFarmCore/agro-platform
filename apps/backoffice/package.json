@@ -1,0 +1,23 @@
+{
+  "name": "@agro/backoffice",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Internal backoffice application",
+  "scripts": {
+    "dev": "next dev --port 3002",
+    "build": "next build",
+    "start": "next start --port 3002",
+    "lint": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "node ../../tooling/scripts/noop.mjs test @agro/backoffice"
+  },
+  "dependencies": {
+    "@agro/auth": "workspace:*",
+    "@agro/config": "workspace:*",
+    "@agro/modules": "workspace:*",
+    "@agro/ui": "workspace:*",
+    "next": "^16.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

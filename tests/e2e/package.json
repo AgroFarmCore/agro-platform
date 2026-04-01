@@ -1,0 +1,12 @@
+{
+  "name": "@agro/tests-e2e",
+  "private": true,
+  "version": "0.1.0",
+  "description": "End-to-end test workspace",
+  "scripts": {
+    "build": "node ../../tooling/scripts/noop.mjs build @agro/tests-e2e",
+    "lint": "node ../../tooling/scripts/noop.mjs lint @agro/tests-e2e",
+    "typecheck": "node ../../tooling/scripts/noop.mjs typecheck @agro/tests-e2e",
+    "test": "node ../../tooling/scripts/noop.mjs test @agro/tests-e2e"
+  }
+}

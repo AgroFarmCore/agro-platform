@@ -1,0 +1,22 @@
+{
+  "name": "@agro/web",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Public website application",
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start --port 3000",
+    "lint": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "node ../../tooling/scripts/noop.mjs test @agro/web"
+  },
+  "dependencies": {
+    "@agro/config": "workspace:*",
+    "@agro/content": "workspace:*",
+    "@agro/ui": "workspace:*",
+    "next": "^16.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
