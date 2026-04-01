@@ -1,0 +1,31 @@
+{
+  "name": "agro-platform",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo blueprint for the agro platform",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "turbo dev --parallel",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "format": "prettier --check .",
+    "format:write": "prettier --write .",
+    "check": "pnpm lint && pnpm typecheck && pnpm test",
+    "db:generate": "pnpm --filter @agro/database db:generate",
+    "db:migrate": "pnpm --filter @agro/database db:migrate",
+    "db:seed": "pnpm --filter @agro/database db:seed",
+    "db:studio": "pnpm --filter @agro/database db:studio",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.0.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}

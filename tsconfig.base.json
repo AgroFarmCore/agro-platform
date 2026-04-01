@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "baseUrl": ".",
+    "paths": {
+      "@agro/ui/*": ["packages/ui/src/*"],
+      "@agro/database/*": ["packages/database/src/*"],
+      "@agro/modules/*": ["packages/modules/src/*"],
+      "@agro/jobs/*": ["packages/jobs/src/*"],
+      "@agro/config/*": ["packages/config/src/*"],
+      "@agro/testing/*": ["packages/testing/src/*"],
+      "@agro/content/*": ["packages/content/src/*"],
+      "@agro/auth/*": ["packages/auth/src/*"],
+      "@agro/observability/*": ["packages/observability/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", ".next", ".turbo"]
+}

@@ -1,0 +1,9 @@
+* @team/platform
+
+/apps/web/ @team/web
+/apps/portal/ @team/app
+/apps/backoffice/ @team/app
+/apps/worker/ @team/backend
+/packages/database/ @team/backend @team/platform
+/packages/modules/ @team/backend @team/platform
+/docs/adr/ @team/platform
