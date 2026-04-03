@@ -29,6 +29,11 @@ Business logic is intentionally kept small at this stage so the codebase stays c
 - ADR-001: [ADR-001.md](D:/Agro/docs/architecture/ADR-001.md)
 - coding standards: [coding-standards.md](D:/Agro/docs/standards/coding-standards.md)
 - import rules: [import-rules.md](D:/Agro/docs/standards/import-rules.md)
+- contributing guide: [CONTRIBUTING.md](D:/Agro/CONTRIBUTING.md)
+- onboarding: [docs/onboarding/README.md](D:/Agro/docs/onboarding/README.md)
+- module ownership: [module-ownership.md](D:/Agro/docs/ownership/module-ownership.md)
+- release process: [docs/release/README.md](D:/Agro/docs/release/README.md)
+- runbooks: [docs/runbooks/README.md](D:/Agro/docs/runbooks/README.md)
 
 ## Base commands
 

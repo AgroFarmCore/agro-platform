@@ -1,16 +1,24 @@
 # apps/web
 
-Публичный сайт и контентные страницы.
+Purpose: public website and content pages.
 
-Хранить здесь:
+Owner: `@team/web`
+
+Keep here:
 
 - marketing pages
 - SEO routes
 - public content rendering
-- публичные формы захвата лидов
+- public lead capture forms
 
-Не хранить здесь:
+Do not keep here:
 
-- доменную бизнес-логику кабинетов
-- прямой Prisma-доступ
-- admin-only flows
+- portal business logic
+- direct Prisma access
+- admin-only workflows
+
+Allowed dependencies:
+
+- `@agro/content`
+- `@agro/ui`
+- `@agro/config`

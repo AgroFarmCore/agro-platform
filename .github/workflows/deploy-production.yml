@@ -3,9 +3,15 @@ name: Deploy Production
 on:
   workflow_dispatch:
 
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     environment: production
     steps:
-      - run: echo "Add production deployment steps with approval gates"
+      - uses: actions/checkout@v4
+      - run: echo "Wire this workflow to the production deployment target with approval gates and smoke checks."
+      - run: echo "Production rollout and rollback rules are documented in docs/release/README.md."

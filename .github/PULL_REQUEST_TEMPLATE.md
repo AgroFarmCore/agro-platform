@@ -1,11 +1,31 @@
 ## Summary
 
--
+- what changed
+- why it changed
 
-## Checklist
+## Scope
 
-- [ ] scope is small and reviewable
-- [ ] docs updated if architecture or workflow changed
-- [ ] migrations included if schema changed
-- [ ] tests added or updated where needed
+- app or package touched:
+- owner area:
+- risk level: low / medium / high
+
+## Validation
+
+- [ ] `pnpm lint`
+- [ ] `pnpm typecheck`
+- [ ] `pnpm test`
+- [ ] `pnpm build` when runtime or build config changed
+- [ ] docs updated when architecture, workflow, or operations changed
+- [ ] migrations included when schema changed
 - [ ] no forbidden deep imports introduced
+
+## Test Notes
+
+- automated:
+- manual:
+
+## Rollout Notes
+
+- staging checks:
+- rollback plan:
+- follow-up work:

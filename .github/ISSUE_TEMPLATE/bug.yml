@@ -4,6 +4,20 @@ title: "[Bug]: "
 labels:
   - bug
 body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - web
+        - portal
+        - backoffice
+        - worker
+        - modules
+        - database
+        - platform
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
@@ -23,3 +37,13 @@ body:
       label: Steps to reproduce
     validations:
       required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who is affected right now?
+  - type: textarea
+    id: rollback
+    attributes:
+      label: Workaround or rollback
+      description: Temporary mitigation, if known

@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "node ../../tooling/scripts/noop.mjs build @agro/typescript-config",
-    "lint": "prettier --check .",
+    "lint": "prettier --check . --ignore-path ../../.prettierignore",
     "typecheck": "node ../../tooling/scripts/noop.mjs typecheck @agro/typescript-config",
     "test": "node ../../tooling/scripts/noop.mjs test @agro/typescript-config"
   }

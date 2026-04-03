@@ -1,8 +1,10 @@
 # packages/modules
 
-Основная бизнес-логика modular monolith.
+Purpose: main business logic of the modular monolith.
 
-Планируемые модули:
+Owner: `@team/backend`
+
+Planned modules:
 
 - `access`
 - `farmer`
@@ -14,3 +16,8 @@
 - `billing`
 - `notification`
 - `integration`
+
+Rule:
+
+Expose module contracts through public APIs and do not couple apps to internal
+paths.
