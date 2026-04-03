@@ -117,8 +117,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/observability
       bullmq:
-        specifier: ^5.72.0
-        version: 5.72.0
+        specifier: ^5.73.0
+        version: 5.73.0
       ioredis:
         specifier: ^5.10.1
         version: 5.10.1
@@ -158,8 +158,8 @@ importers:
   packages/jobs:
     dependencies:
       bullmq:
-        specifier: ^5.72.0
-        version: 5.72.0
+        specifier: ^5.73.0
+        version: 5.73.0
       zod:
         specifier: ^4.3.6
         version: 4.3.6
@@ -826,8 +826,8 @@ packages:
     resolution: {integrity: sha512-7zrmXjAK8u8Z6SOe4R65XObOR5X+Y2I/VVku3t5cPOGQ8/WsBcfFmfnIPiEl5EBMDOzPHRwbiPbMtQBKYdw7RA==}
     hasBin: true
 
-  bullmq@5.72.0:
-    resolution: {integrity: sha512-1Wmfym7bC8BFxDjKcF4iZNZmqXYo0rgPFlxfi8ET3AaP/vOY/MY33iWsWqAKwe8v/QO/8osipjwTAcFB7egINA==}
+  bullmq@5.73.0:
+    resolution: {integrity: sha512-uX8RbQaBbzk0H9JYXKGrNxpDqFcDBQFFKCyKarMjtfYHuct5X48M2LUq3Q9FXt/P2kWzPrqYlNnNqsico7ty5A==}
 
   c12@3.1.0:
     resolution: {integrity: sha512-uWoS8OU1MEIsOv8p/5a82c3H31LsWVR5qiyXVfBNOzfffjUWtPnhAb4BYI2uG2HfGmZmFjCtui5XNWaps+iFuw==}
@@ -1832,7 +1832,7 @@ snapshots:
     dependencies:
       '@clack/prompts': 0.11.0
 
-  bullmq@5.72.0:
+  bullmq@5.73.0:
     dependencies:
       cron-parser: 4.9.0
       ioredis: 5.10.1

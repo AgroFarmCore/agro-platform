@@ -16,7 +16,7 @@
     "@agro/jobs": "workspace:*",
     "@agro/modules": "workspace:*",
     "@agro/observability": "workspace:*",
-    "bullmq": "^5.72.0",
+    "bullmq": "^5.73.0",
     "ioredis": "^5.10.1",
     "zod": "^4.3.6"
   },
