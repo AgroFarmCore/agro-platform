@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: echo "Wire this workflow to the production deployment target with approval gates and smoke checks."
       - run: echo "Production rollout and rollback rules are documented in docs/release/README.md."

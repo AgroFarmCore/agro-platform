@@ -15,6 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: staging
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: echo "Connect this workflow to the chosen staging platform for web, portal, backoffice, and worker."
       - run: echo "After wiring deploy targets, keep smoke checks aligned with docs/release/README.md."
