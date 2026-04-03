@@ -13,6 +13,7 @@ Internal documentation for repository architecture, delivery, and operations.
 - `runbooks` - queue, database, rollback, and access restoration procedures
 - `incidents` - incident communication and postmortem template
 - `glossary` - shared product and domain vocabulary
+- `handoff` - consolidated project handbook for team onboarding and transfer
 
 ## Reading Order For New Developers
 

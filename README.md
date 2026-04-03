@@ -34,6 +34,7 @@ Business logic is intentionally kept small at this stage so the codebase stays c
 - module ownership: [module-ownership.md](D:/Agro/docs/ownership/module-ownership.md)
 - release process: [docs/release/README.md](D:/Agro/docs/release/README.md)
 - runbooks: [docs/runbooks/README.md](D:/Agro/docs/runbooks/README.md)
+- Russian handoff handbook: [foundation-handbook.ru.md](D:/Agro/docs/handoff/foundation-handbook.ru.md)
 
 ## Base commands
 
