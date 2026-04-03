@@ -117,8 +117,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/observability
       bullmq:
-        specifier: ^5.71.1
-        version: 5.71.1
+        specifier: ^5.72.0
+        version: 5.72.0
       ioredis:
         specifier: ^5.10.1
         version: 5.10.1
@@ -158,8 +158,8 @@ importers:
   packages/jobs:
     dependencies:
       bullmq:
-        specifier: ^5.71.1
-        version: 5.71.1
+        specifier: ^5.72.0
+        version: 5.72.0
       zod:
         specifier: ^4.3.6
         version: 4.3.6
@@ -830,8 +830,8 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  bullmq@5.71.1:
-    resolution: {integrity: sha512-kOBfdcsHmO6wwmIjpersoVdYQ7jkjTgky4Yop0loc7QwSdgxliSzD69U9ijZuRrkyCJwz5p5eqxeGeQkJ0YGZQ==}
+  bullmq@5.72.0:
+    resolution: {integrity: sha512-1Wmfym7bC8BFxDjKcF4iZNZmqXYo0rgPFlxfi8ET3AaP/vOY/MY33iWsWqAKwe8v/QO/8osipjwTAcFB7egINA==}
 
   c12@3.1.0:
     resolution: {integrity: sha512-uWoS8OU1MEIsOv8p/5a82c3H31LsWVR5qiyXVfBNOzfffjUWtPnhAb4BYI2uG2HfGmZmFjCtui5XNWaps+iFuw==}
@@ -1908,7 +1908,7 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  bullmq@5.71.1:
+  bullmq@5.72.0:
     dependencies:
       cron-parser: 4.9.0
       ioredis: 5.10.1
