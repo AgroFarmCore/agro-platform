@@ -4,6 +4,20 @@ title: "[Feature]: "
 labels:
   - feature
 body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - web
+        - portal
+        - backoffice
+        - worker
+        - modules
+        - database
+        - platform
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:
@@ -16,6 +30,13 @@ body:
     attributes:
       label: Proposal
       description: What should we build?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What should be true when this is done?
     validations:
       required: true
   - type: textarea

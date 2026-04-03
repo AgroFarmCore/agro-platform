@@ -1,15 +1,24 @@
 # apps/backoffice
 
-Внутренняя админка и операционный интерфейс.
+Purpose: internal operations and support interface.
 
-Хранить здесь:
+Owner: `@team/app` and `@team/ops`
+
+Keep here:
 
 - moderation tools
 - support workflows
 - internal dashboards
 
-Не хранить здесь:
+Do not keep here:
 
 - reusable domain logic
-- публичный контент
+- public content
 - worker runtime code
+
+Allowed dependencies:
+
+- `@agro/auth`
+- `@agro/modules`
+- `@agro/ui`
+- `@agro/config`

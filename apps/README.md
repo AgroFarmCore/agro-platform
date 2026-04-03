@@ -1,15 +1,15 @@
 # apps
 
-Runtime-приложения платформы.
+Runtime applications of the platform.
 
-Содержимое:
+## Apps
 
-- `web` — публичный сайт и контентный слой
-- `portal` — кабинет фермера и поставщика
-- `backoffice` — внутренние операционные интерфейсы
-- `worker` — фоновые задачи, очереди и автоматизации
+- `web` - public website and content surface
+- `portal` - authenticated farmer and supplier experience
+- `backoffice` - internal operations and support interface
+- `worker` - background jobs and automation runtime
 
-Правило:
+## Rule
 
-- app layer собирает UI и runtime wiring;
-- бизнес-логика должна переиспользоваться из `packages/*`, а не жить только внутри app.
+The app layer owns routing, UI composition, and runtime wiring. Reusable
+business logic should live in `packages/*`, not only inside an app.

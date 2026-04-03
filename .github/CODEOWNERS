@@ -2,8 +2,26 @@
 
 /apps/web/ @team/web
 /apps/portal/ @team/app
-/apps/backoffice/ @team/app
+/apps/backoffice/ @team/app @team/ops
 /apps/worker/ @team/backend
+
+/packages/auth/ @team/backend @team/platform
+/packages/config/ @team/platform
+/packages/content/ @team/web
 /packages/database/ @team/backend @team/platform
-/packages/modules/ @team/backend @team/platform
+/packages/jobs/ @team/backend
+/packages/modules/ @team/backend
+/packages/modules/src/access/ @team/backend @team/platform
+/packages/modules/src/catalog/ @team/backend @team/app
+/packages/modules/src/farmer/ @team/backend @team/app
+/packages/modules/src/order/ @team/backend @team/app
+/packages/modules/src/supplier/ @team/backend @team/app
+/packages/observability/ @team/platform
+/packages/testing/ @team/platform
+/packages/ui/ @team/web @team/app
+
+/.github/workflows/ @team/platform
+/docs/release/ @team/platform
+/docs/runbooks/ @team/platform @team/ops
+/docs/ownership/ @team/platform
 /docs/adr/ @team/platform

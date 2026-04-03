@@ -1,13 +1,20 @@
 name: Deploy Staging
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
+
+concurrency:
+  group: deploy-staging
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     environment: staging
     steps:
-      - run: echo "Add staging deployment steps for web, portal, backoffice and worker"
+      - uses: actions/checkout@v4
+      - run: echo "Connect this workflow to the chosen staging platform for web, portal, backoffice, and worker."
+      - run: echo "After wiring deploy targets, keep smoke checks aligned with docs/release/README.md."

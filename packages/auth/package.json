@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "tsc --noEmit",
-    "lint": "prettier --check .",
+    "lint": "prettier --check . --ignore-path ../../.prettierignore",
     "typecheck": "tsc --noEmit",
     "test": "node ../../tooling/scripts/noop.mjs test @agro/auth"
   }

@@ -1,8 +1,16 @@
 # tests
 
-Тестовые workspace-пакеты верхнего уровня.
+Top-level test workspaces for cross-app validation.
 
-- `e2e` — end-to-end сценарии
-- `smoke` — короткие post-deploy проверки
+- `e2e` - user journeys across `web`, `portal`, and `backoffice`
+- `smoke` - short post-deploy checks for critical routes and boot paths
 
-Общие test fixtures и helpers лежат в `packages/testing`.
+Shared fixtures and helpers belong in `packages/testing`.
+
+## Minimum Expected Coverage
+
+- public home page renders
+- authenticated portal shell loads
+- backoffice shell loads for admin
+- worker starts and can bind processors
+- at least one critical queue enqueue path is validated

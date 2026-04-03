@@ -1,16 +1,25 @@
 # apps/portal
 
-Единый кабинет для фермера и поставщика.
+Purpose: authenticated farmer and supplier experience.
 
-Хранить здесь:
+Owner: `@team/app`
+
+Keep here:
 
 - authenticated routes
-- app shell
-- role-aware pages
-- UI composition поверх `packages/modules`
+- role-aware screens
+- app shell composition
+- module integrations through package public APIs
 
-Не хранить здесь:
+Do not keep here:
 
-- backoffice operations
+- backoffice-only operations
 - duplicate business rules
 - queue processors
+
+Allowed dependencies:
+
+- `@agro/auth`
+- `@agro/modules`
+- `@agro/ui`
+- `@agro/config`

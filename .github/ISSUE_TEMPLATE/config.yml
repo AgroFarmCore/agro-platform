@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Incident or urgent production issue
+    url: https://example.invalid/agro-incident-channel
+    about: Use the incident channel and runbook process for urgent operational issues.

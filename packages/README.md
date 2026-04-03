@@ -1,15 +1,16 @@
 # packages
 
-Переиспользуемые пакеты monorepo.
+Reusable packages inside the monorepo.
 
-Типы пакетов:
+## Package Types
 
-- platform packages: `config`, `auth`, `observability`, `testing`
-- business packages: `modules`, `jobs`, `content`
-- infrastructure packages: `database`
+- platform: `config`, `auth`, `observability`, `testing`
+- business: `modules`, `jobs`, `content`
+- infrastructure: `database`
 - frontend foundation: `ui`
-- repo tooling configs: `eslint-config`, `typescript-config`
+- repo tooling: `eslint-config`, `typescript-config`
 
-Правило:
+## Rule
 
-- новый package создаётся только когда у него есть ясная ответственность и минимум два потенциальных потребителя.
+Create a package only when it has a clear responsibility, a stable public API,
+and at least two realistic consumers.

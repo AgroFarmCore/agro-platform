@@ -1,15 +1,24 @@
 # apps/worker
 
-BullMQ worker runtime.
+Purpose: background jobs, queue binding, and automation runtime.
 
-Хранить здесь:
+Owner: `@team/backend`
 
-- bootstrap workers
-- bind queues to processors
+Keep here:
+
+- worker bootstrap
+- queue-to-processor wiring
 - cron orchestration
 
-Не хранить здесь:
+Do not keep here:
 
-- уникальные бизнес-правила
+- unique business rules
 - UI
-- raw content logic
+- content rendering logic
+
+Allowed dependencies:
+
+- `@agro/jobs`
+- `@agro/modules`
+- `@agro/observability`
+- `@agro/config`
