@@ -34,7 +34,7 @@
     "lint-staged": "^16.4.0",
     "prettier": "^3.0.0",
     "turbo": "^2.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^6.0.2"
   },
   "lint-staged": {
     "*.{js,cjs,mjs,ts,tsx,jsx,json,md,yml,yaml}": [
